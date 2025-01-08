@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Playwrite+AU+SA&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Playwrite AU SA", "Manrope", serif;
+      font-optical-sizing: auto;
+      /* font-weight: <400>; */
+      font-style: normal;
+    }
+    
+    h1 {
+    font-family: "Manrope", serif;
+      font-optical-sizing: auto;
+       font-style: normal;
+    }
+}
